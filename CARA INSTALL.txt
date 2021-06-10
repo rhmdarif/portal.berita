@@ -1,0 +1,23 @@
+[CARA INSTALLASI]
+
+PraInstall :
+Pastikan komputer/laptop telah terinstall XAMPP, Visual Studio Code, dan Composer.
+
+Installasi :
+1. Pindahkan file PortalBerita.rar ke data C:/ 
+2. Klik kanan pada file PortalBerita.rar > pilih Extract Files..
+3. Jalankan service mysql pada XAMPP
+4. Buat Database pada http://localhost/phpmyadmin
+5. Buka command promt (CMD) lalu ketik perintah " cd C:/PortalBerita " dan tekan enter.
+6. Selanjutnya ketik perintah "code ." dan tekan enter.
+7. Tunggu beberapa saat hingga Visual Studio terbuka
+8. Pada sidebar Visual Studio, buka file .env
+9. Ubah nama database sesuai yang telah dibuat tadi
+10. Setelah itu, kembali ke CMD tadi. Jalankan semua berikut :
+	composer install
+	php artisan key:generate
+	php artisan migrate
+	php artisan db:seed --class=UserSeeder
+	php artisan serve
+11. Buka browser dan buka website dengan url : http://127.0.0.1:8000
+12. Installasi selesai
