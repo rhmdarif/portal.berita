@@ -47,8 +47,7 @@
                                     <ul id="navigation">
                                         <li><a href="{{ route("index") }}">Home</a></li>
                                         <li><a href="{{ route("category") }}">Category</a></li>
-                                        <li><a href="#">About</a></li>
-                                        <li><a href="#">Contact</a></li>
+                                        <li><a href="{{ route("author") }}">Author</a></li>
                                     </ul>
                                 </nav>
                             </div>
