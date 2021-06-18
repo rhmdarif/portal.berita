@@ -2,6 +2,7 @@
 
 namespace App\View\Components;
 
+use App\Models\Post;
 use Illuminate\View\Component;
 
 class TrandingSection extends Component
@@ -23,6 +24,7 @@ class TrandingSection extends Component
      */
     public function render()
     {
-        return view('components.tranding-section');
+        $post = Post::select("title", "url")->orderBy("id", "desc")->limit(5)->get();
+        return view('components.tranding-section', ['posts' => $post]);
     }
 }

@@ -139,52 +139,7 @@
                             <!-- Nav Card -->
                             <!-- card one -->
                             <div class="whats-news-caption">
-                                <div class="row" id="postings">
-                                    <div class="col-lg-6 col-md-6">
-                                        <div class="single-what-news mb-100">
-                                            <div class="what-img">
-                                                <img src="assets/img/news/whatNews1.jpg" alt="">
-                                            </div>
-                                            <div class="what-cap">
-                                                <span class="color1">Night party</span>
-                                                <h4><a href="#">Welcome To The Best Model  Winner Contest</a></h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 col-md-6">
-                                        <div class="single-what-news mb-100">
-                                            <div class="what-img">
-                                                <img src="assets/img/news/whatNews2.jpg" alt="">
-                                            </div>
-                                            <div class="what-cap">
-                                                <span class="color1">Night party</span>
-                                                <h4><a href="#">Welcome To The Best Model  Winner Contest</a></h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 col-md-6">
-                                        <div class="single-what-news mb-100">
-                                            <div class="what-img">
-                                                <img src="assets/img/news/whatNews3.jpg" alt="">
-                                            </div>
-                                            <div class="what-cap">
-                                                <span class="color1">Night party</span>
-                                                <h4><a href="#">Welcome To The Best Model  Winner Contest</a></h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 col-md-6">
-                                        <div class="single-what-news mb-100">
-                                            <div class="what-img">
-                                                <img src="assets/img/news/whatNews4.jpg" alt="">
-                                            </div>
-                                            <div class="what-cap">
-                                                <span class="color1">Night party</span>
-                                                <h4><a href="#">Welcome To The Best Model  Winner Contest</a></h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                <div class="row" id="postings"></div>
                             </div>
                         <!-- End Nav Card -->
                         </div>
@@ -193,48 +148,7 @@
                 <div class="col-lg-4">
                     <!-- Section Tittle -->
                     <div class="section-tittle mb-40">
-                        <h3>Follow Us</h3>
-                    </div>
-                    <!-- Flow Socail -->
-                    <div class="single-follow mb-45">
-                        <div class="single-box">
-                            <div class="follow-us d-flex align-items-center">
-                                <div class="follow-social">
-                                    <a href="#"><img src="assets/img/news/icon-fb.png" alt=""></a>
-                                </div>
-                                <div class="follow-count">
-                                    <span>8,045</span>
-                                    <p>Fans</p>
-                                </div>
-                            </div>
-                            <div class="follow-us d-flex align-items-center">
-                                <div class="follow-social">
-                                    <a href="#"><img src="assets/img/news/icon-tw.png" alt=""></a>
-                                </div>
-                                <div class="follow-count">
-                                    <span>8,045</span>
-                                    <p>Fans</p>
-                                </div>
-                            </div>
-                                <div class="follow-us d-flex align-items-center">
-                                <div class="follow-social">
-                                    <a href="#"><img src="assets/img/news/icon-ins.png" alt=""></a>
-                                </div>
-                                <div class="follow-count">
-                                    <span>8,045</span>
-                                    <p>Fans</p>
-                                </div>
-                            </div>
-                            <div class="follow-us d-flex align-items-center">
-                                <div class="follow-social">
-                                    <a href="#"><img src="assets/img/news/icon-yo.png" alt=""></a>
-                                </div>
-                                <div class="follow-count">
-                                    <span>8,045</span>
-                                    <p>Fans</p>
-                                </div>
-                            </div>
-                        </div>
+                        <h3>Iklan</h3>
                     </div>
                     <!-- New Poster -->
                     <div class="news-poster d-none d-lg-block">

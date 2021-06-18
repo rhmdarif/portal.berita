@@ -22,12 +22,12 @@
                         <!-- Logo -->
                         <div class="col-xl-3 col-lg-3 col-md-3">
                             <div class="logo">
-                                <a href="{{ route('index') }}"><img src="./assets/img/logo/logo.png" alt=""></a>
+                                <a href="{{ route('index') }}"><img src="/assets/img/logo/UPI.svg" width="185px" alt=""></a>
                             </div>
                         </div>
                         <div class="col-xl-9 col-lg-9 col-md-9">
                             <div class="header-banner f-right ">
-                                <img src="./assets/img/hero/header_card.jpg" alt="">
+                                <img src="./assets/img/hero/banner_1.gif" alt="">
                             </div>
                         </div>
                     </div>
@@ -39,7 +39,7 @@
                         <div class="col-xl-10 col-lg-10 col-md-12 header-flex">
                             <!-- sticky -->
                                 <div class="sticky-logo">
-                                    <a href="index.html"><img src="./assets/img/logo/logo.png" alt=""></a>
+                                    <a href="index.html"><img src="./assets/img/logo/UPI.svg" width="185px" alt=""></a>
                                 </div>
                             <!-- Main-menu -->
                             <div class="main-menu d-none d-md-block">

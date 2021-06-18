@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Api;
 use App\Http\Controllers\Admin;
 use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\OtherPagesController;
 use App\Http\Controllers\ReadController;
 
 /*
@@ -52,5 +53,6 @@ Route::prefix('admin')->as("admin.")->group(function () {
 Route::middleware(['visitor'])->group(function () {
     Route::get('/', [HomeController::class, 'index'])->name('index');
     Route::get('/category', [CategoryController::class, 'index'])->name('category');
+    Route::get('/author', [OtherPagesController::class, 'author'])->name('author');
     Route::get('/{url_post}', [ReadController::class, 'index'])->name('post');
 });
