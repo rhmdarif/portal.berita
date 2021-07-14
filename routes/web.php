@@ -41,7 +41,7 @@ Route::prefix('admin')->as("admin.")->group(function () {
             Route::get('dashboard-chart', [Admin\DashboardController::class, 'data_chart'])->name('dashboard.chart');
         });
 
-        Route::get('dashboard', [Admin\DashboardController::class, 'index'])->name('dashboard');
+        Route::get('/', [Admin\DashboardController::class, 'index'])->name('dashboard');
         Route::resource('category', Admin\CategoryController::class);
         Route::resource('post', Admin\PostController::class);
         Route::resource('user', Admin\UserController::class);
